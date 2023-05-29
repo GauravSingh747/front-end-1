@@ -1,0 +1,34 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.banner video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+  /* Add additional styling for your banner content */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: #000000cc; */
+}
+
+.heading {
+  font-family: "styles";
+  font-size: 4rem;
+}
